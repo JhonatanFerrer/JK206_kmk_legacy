@@ -33,13 +33,13 @@ Una vez tengas todos los materiales necesarios, toca empezar a soldar. Antes de 
 
 Si estas montando el macropad, tienes que "habilitar" la opción de usar mas encoders en la PCB, para esto basta con unir los puntos de la PCB que se ven en la imagen, de forma que cada uno quede unido con quien tenga a sud derecha o izquierda
 
-![292385655-57addb74-b026-4cfa-8451-b28f55c42d1b](https://github.com/JhonatanFerrer/JK206/assets/111335841/2189e91f-a64e-4447-abd9-0322da5fcc75)
+![292385655-57addb74-b026-4cfa-8451-b28f55c42d1b](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/2189e91f-a64e-4447-abd9-0322da5fcc75)
 
 
 
 De forma que queden unidos de la siguiente manere
 
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/20f61c4c-638f-4485-a3b4-19ebd36d7ff5)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/20f61c4c-638f-4485-a3b4-19ebd36d7ff5)
 
 Esto se puede hacer tanto con cable UTP como con un jumper o uniendo directamente ambos puntos con estaño, basta con que haya continuidad entre ambos puntos
 
@@ -48,11 +48,11 @@ Esto se puede hacer tanto con cable UTP como con un jumper o uniendo directament
 Si estas montando el teclado, tienes que unir las 3 PCBs, para esto hay que unir filas y columnas; las columnas se unen en la parte superior de las PCBs de la siguiente forma:
 
 
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/8d986f73-baac-420b-a798-1e904f3f9116)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/8d986f73-baac-420b-a798-1e904f3f9116)
 
 Las filas se unen puenteando los puntos que se encuentran a los lados de la PCB junto al punto que le quede inmediatamente al lado de la otra PCB. Esto se hace en ambas intersecciones entre PCBs
 
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/734ff414-ec16-4648-906f-d32c0567a64a)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/734ff414-ec16-4648-906f-d32c0567a64a)
 
 No olvides que para evitar problemas posteriores con el montaje del teclado las 3 PCBs deben quedar completamente juntas y alineadas
 
@@ -69,13 +69,13 @@ Lo siguiente sería soldar los sockets hotswap y los encoders, ten en cuenta que
 
 Los encoders se pueden colocar en el macropad de la siguiente forma
 
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/261219ae-7fc7-40b2-8a4f-46c7caaa28a1)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/261219ae-7fc7-40b2-8a4f-46c7caaa28a1)
 
 Las zonas verdes en el diagrama representan los puntos donde puenden colocarse los encoders. No es recomendable colocar dos encoders en posiciones que compartan el mismo número, pues por limitaciones del Raspberry Pi Pico y del diseño de la PCB estos serían reconocidos como un solo encoder; por lo que la formas recomendables de colocar los encoders serían las siguientes
 
 
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/15c20124-f5a1-4b04-b754-f72da8c0276f)
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/4c740b88-ffe2-471d-b411-18dfd2f6fb84)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/15c20124-f5a1-4b04-b754-f72da8c0276f)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/4c740b88-ffe2-471d-b411-18dfd2f6fb84)
 
 <h3 align="Left"> Para el teclado </h3>
 
@@ -90,7 +90,7 @@ Teniendo en cuenta lo anterior, empieza a soldar los sockets hotswap y los encod
 Ahora solo faltaría soldar el Raspberry Pi Pico y la pantalla OLED. Es necesario que la Raspberry tenga pines soldados para poderla poner en la PCB, así que en caso de que tu Raspberry no los tenga de antemano tendrás que soldarle tu mismo unas regletas Antes de colocarla en la PCB.
 
 
-![image](https://github.com/JhonatanFerrer/JK206/assets/111335841/e1d4df5e-f2e3-4f1a-a8f8-0bd331d9776c)
+![image](https://github.com/JhonatanFerrer/JK206_kmk_legacy/assets/111335841/e1d4df5e-f2e3-4f1a-a8f8-0bd331d9776c)
 
 ![IMG_20250111_225725](https://github.com/user-attachments/assets/9943f2f9-16a2-4e09-a465-cdd6062bb180)
 
@@ -115,7 +115,7 @@ Para este montaje relativamente sencillo vas a necesitar de estos materiales:
 | --------------------------------- | ------------------------------------------- | ------------------------------------------- |
 | Separadores de latón M2 10mm      | 4                                         | 4                                           |
 | Tornillos M2 cabeza plana 6mm     | 8                                        | 8                                           |
-| Plates acrílicos (1.5mm de grosor)| [1 par](https://github.com/JhonatanFerrer/JK206/blob/main/Cases/Sandwich-Case/Macropad/Plates%20macropad.pdf))              | [1 par](https://github.com/JhonatanFerrer/JK206/blob/main/Cases/Sandwich-Case/Keyboard/Plates%20keyboard.pdf)        |
+| Plates acrílicos (1.5mm de grosor)| [1 par](https://github.com/JhonatanFerrer/JK206_kmk_legacy/blob/main/Cases/Sandwich-Case/Macropad/Plates%20macropad.pdf))              | [1 par](https://github.com/JhonatanFerrer/JK206_kmk_legacy/blob/main/Cases/Sandwich-Case/Keyboard/Plates%20keyboard.pdf)        |
 
 Esta guía de montaje estará enfocada principalmente para el macropad, pero el montaje del JK206 en modo teclado es muy similar y la guía debería servir igualmente.
 
@@ -157,7 +157,7 @@ En general el tape mod funciona bien con el montaje, fuera de eso no hay mucho m
 
 <h2 align="Left"> 5. Instalación del firmware </h2>
 
-Ésta es la parte más fácil, para esto solo debes instalar [KMK](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) en tu teclado o macropad siguiendo la guía de inicio rápido y sobre éste colocar los archivos de configuración, sean los del [macropad](https://github.com/JhonatanFerrer/JK206/tree/main/Source_Code/Macropad) o el [teclado completo](https://github.com/JhonatanFerrer/JK206/tree/main/Source_Code/Keyboard).
+Ésta es la parte más fácil, para esto solo debes instalar [KMK](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) en tu teclado o macropad siguiendo la guía de inicio rápido y sobre éste colocar los archivos de configuración, sean los del [macropad](https://github.com/JhonatanFerrer/JK206_kmk_legacy/tree/main/Source_Code/Macropad) o el [teclado completo](https://github.com/JhonatanFerrer/JK206_kmk_legacy/tree/main/Source_Code/Keyboard).
 
 
 Y con ésto ya deberías tener completamente funcional tu JK206 :D
